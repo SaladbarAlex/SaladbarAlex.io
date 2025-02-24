@@ -7,7 +7,7 @@ const Introduction = () => {
         <div className="h-screen w-full flex items-center justify-center ">
             <div className="flex items-center w-fit">
                 <div className="flex items-center justify-end">
-                    <model-viewer
+                    <model-viewer>
                         src="/greeting_waving_110_frames_loop.glb"
                         alt="A 3D model"
                         autoplay
