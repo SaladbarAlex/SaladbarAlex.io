@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
 const NavbarLinks = [
+    { label: "Home", href: "/" },
     { label: "About", href: "#about" },
     { label: "Collaboration", href: "#collaboration" },
     { label: "Experience", href: "#experience" },
@@ -36,5 +37,7 @@ const NavBar = () => {
         </nav>
     );
 };
+
+
 
 export default NavBar;
